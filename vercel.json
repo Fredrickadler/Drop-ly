@@ -1,13 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ],
-  "headers": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
-      ]
+      "src": "package.json",
+      "use": "@vercel/next"
     }
   ]
 }
