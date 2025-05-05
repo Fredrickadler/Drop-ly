@@ -16,7 +16,10 @@
     "framer-motion": "^10.16.4",
     "typescript": "^5.0.0"
   }
-    "scripts": {
-  "build": "next build && next export"
+  "scripts": {
+    "build": "next build && next export"
+}
   }
 }
+
+
